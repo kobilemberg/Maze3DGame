@@ -104,7 +104,7 @@ public class Demo
 		System.out.println("**********Demo tests of solving maze**********");
 		System.out.println("Creating searchable 3D maze");
 
-		SearchableMaze3d searchableMaze = createSearchableMaze3d(3,10,18);
+		SearchableMaze3d searchableMaze = createSearchableMaze3d(1,10,10);
 
 		System.out.println("Searchable 3D maze was succesfully created");
 		printMaze3d(searchableMaze);

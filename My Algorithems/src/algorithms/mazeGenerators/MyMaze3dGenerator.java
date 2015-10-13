@@ -1,21 +1,14 @@
-
-
-
 package algorithms.mazeGenerators;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-
-//import java.util.Collections;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.Random;
 
-
-
 /**
- * @author Kobi Lemberg
- * @version 1.0
+ * @author Kobi Lemberg and Alon Abadi
+ * @version 1.2
  * <h1> MyMaze3dGenerator </h1>
  * The MyMaze3dGenerator Class extends the abstract AbsMaze3dGenerator.
  * The class implement a Maze3d abstract generation method from the super class.
@@ -210,7 +203,7 @@ public class MyMaze3dGenerator extends AbsMaze3dGenerator {
 			}			
 		}
 		//Backward
-		if(stateLine-1>1)
+		if(stateLine-1>=1)
 		{
 			if(stateLine-1<yLength-1&&stateCol>0&&stateCol<zLength-1)
 			{
@@ -218,7 +211,7 @@ public class MyMaze3dGenerator extends AbsMaze3dGenerator {
 			}
 		}
 		//Left
-		if(stateCol-1>1)
+		if(stateCol-1>=1)
 		{
 			if(stateLine>0&&stateLine<yLength-1&&stateCol-1<zLength-1)
 			{
