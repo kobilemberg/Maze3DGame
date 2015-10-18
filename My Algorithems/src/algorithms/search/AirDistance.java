@@ -9,7 +9,11 @@ import algorithms.mazeGenerators.Position;
  */
 
 public class AirDistance implements Distance {
-//Constructors
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6610117370845769523L;
+	//Constructors
 	public AirDistance() {
 		// TODO Auto-generated constructor stub
 	}

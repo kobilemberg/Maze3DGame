@@ -1,6 +1,8 @@
 package algorithms.demo;
 
 
+import java.io.Serializable;
+
 import algorithms.mazeGenerators.Maze3d;
 import algorithms.mazeGenerators.MyMaze3dGenerator;
 import algorithms.mazeGenerators.Position;
@@ -17,9 +19,13 @@ import algorithms.search.State;
  * <h1>Demo</h1>
  * This Class job is to run a demo of Maze3D via MyMaze3DGenerator and solve it via BFS and A*
  */
-public class Demo 
+public class Demo implements Serializable
 {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -9145305616785978948L;
 	/**
 	 * Instantiates a new Demo      
 	 */

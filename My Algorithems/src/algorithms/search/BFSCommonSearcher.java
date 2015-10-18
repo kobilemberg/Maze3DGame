@@ -12,7 +12,11 @@ import java.util.ArrayList;
  */
 public class BFSCommonSearcher extends AbsCommonSearcher{
 
-//Constructors
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8352177408828044518L;
+	//Constructors
 	/**
 	 * Instantiates a new  BFS  searcher
 	 *@return new instance of BFS searcher

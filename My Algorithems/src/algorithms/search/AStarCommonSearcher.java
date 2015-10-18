@@ -18,6 +18,10 @@ import java.util.PriorityQueue;
 @SuppressWarnings("rawtypes")
 public class AStarCommonSearcher extends AbsCommonSearcher implements Comparator<State> {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6266409182475114970L;
 	protected Distance h;
 	protected Searchable s;
 //Constructors

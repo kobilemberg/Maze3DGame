@@ -1,6 +1,6 @@
 package algorithms.search;
 
-
+import java.io.Serializable;
 
 /**
  * @author Kobi Lemberg
@@ -10,7 +10,7 @@ package algorithms.search;
  * All the classes that will implements this interface will have to implement getDistance method.
  */
 
-public interface Distance {
+public interface Distance extends Serializable{
 	 /**
 	 * This function gets 2 States and returns double number represent the distance between them.
 	 * @param from State represent the edge of the distance.

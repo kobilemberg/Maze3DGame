@@ -11,7 +11,11 @@ import algorithms.mazeGenerators.Position;
  * This class implement interface and defining a method that will generate a double number that represent a Manhaten distance between 2 different Positions.
  */
 public class ManhatenDistance implements Distance {
-//Constructor
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	//Constructor
 	public ManhatenDistance() {}
 //Functionality
 	@SuppressWarnings("rawtypes")

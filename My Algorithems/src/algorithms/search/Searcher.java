@@ -1,4 +1,7 @@
 package algorithms.search;
+
+import java.io.Serializable;
+
 /**
  * @author Kobi Lemberg
  * @version 1.0
@@ -6,7 +9,7 @@ package algorithms.search;
  * This interface defining a generally Searcher for search-able problem as maze,graph and etc'
  * all implemented classes will have to implement search and getNumberOfNodesEvaluated method.
  */
-public interface Searcher<T> {
+public interface Searcher<T> extends Serializable{
 	/**
 	 * This method goal is to search and generate a instance of solution to a search-able problam
 	 *@param s Searchable instance represent the problem

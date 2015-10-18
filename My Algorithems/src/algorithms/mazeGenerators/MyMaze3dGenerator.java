@@ -203,7 +203,7 @@ public class MyMaze3dGenerator extends AbsMaze3dGenerator {
 			}			
 		}
 		//Backward
-		if(stateLine-1>=1)
+		if(stateLine-1>1)
 		{
 			if(stateLine-1<yLength-1&&stateCol>0&&stateCol<zLength-1)
 			{
@@ -211,7 +211,7 @@ public class MyMaze3dGenerator extends AbsMaze3dGenerator {
 			}
 		}
 		//Left
-		if(stateCol-1>=1)
+		if(stateCol-1>1)
 		{
 			if(stateLine>0&&stateLine<yLength-1&&stateCol-1<zLength-1)
 			{

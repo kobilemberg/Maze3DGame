@@ -1,5 +1,6 @@
 package algorithms.search;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 
@@ -11,7 +12,7 @@ import java.util.ArrayList;
  * all implemented classes will have to implement getStartState,getGoalState and createNSuccessors.
  */
 
-public interface Searchable<T> {
+public interface Searchable<T> extends Serializable{
 		/**
 		 * @return The problem beginning position          
 		 */

@@ -12,7 +12,11 @@ import java.util.PriorityQueue;
 @SuppressWarnings("rawtypes")
 public abstract class AbsCommonSearcher implements Searcher {
 	
-	 PriorityQueue<State> openList;
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5580473253732687623L;
+	PriorityQueue<State> openList;
 	 HashSet<State> closedList;
 	 int evaluatedNodes;
 	 protected Solution solution;

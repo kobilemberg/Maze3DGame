@@ -21,6 +21,10 @@ import algorithms.search.State;
 public class SearchableMaze3d implements Searchable<Position>
 {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2384526123133991410L;
 	protected Maze3d maze;
 	
 
