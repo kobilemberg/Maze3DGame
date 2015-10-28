@@ -27,7 +27,6 @@ public abstract class AbsCommonSearcher implements Searcher {
 		 * Open List of type State<T>
 		 * Closed List of type State<T>
 		 * Number of evaluated nodes
-		 *@return AbsCommonSearcher an instance
 		 */
 		public AbsCommonSearcher() {
 			openList = new PriorityQueue<State>();
@@ -38,7 +37,6 @@ public abstract class AbsCommonSearcher implements Searcher {
 		/**
 		 * Instantiates a new  my own maze3d generator with specific Instance of solution to return when the maze is solved
 		 *@param Solution solution represent the solution to return after the maze is solved
-		 *@return AbsCommonSearcher an instance
 		 */
 		 
 		public AbsCommonSearcher(Solution solution) {

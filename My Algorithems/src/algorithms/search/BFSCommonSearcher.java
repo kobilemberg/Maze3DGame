@@ -19,14 +19,12 @@ public class BFSCommonSearcher extends AbsCommonSearcher{
 	//Constructors
 	/**
 	 * Instantiates a new  BFS  searcher
-	 *@return new instance of BFS searcher
 	 */
 	public BFSCommonSearcher() {super();}
 	
 	/**
 	 * Instantiates a new  BFS searcher with given solution to return when the searcher finished
 	 *@param Solution solution represent the solution to return after the maze is solved
-	 *@return new instance of BFS searcher
 	 */
 	public BFSCommonSearcher(@SuppressWarnings("rawtypes") Solution solution) {
 		super();

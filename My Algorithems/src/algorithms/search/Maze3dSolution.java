@@ -32,7 +32,6 @@ public class Maze3dSolution implements Solution<Position> {
 	/**
 	 * Copy constructor that Instantiates a new  MazeSolution with given other MazeSolution
 	 *@param sol MazeSolution type in order to copy his values. 
-	 *@return Maze3dSolution an instance, that contains the other MazeSolution settings 
 	 */
 	public Maze3dSolution(Maze3dSolution sol) 
 	{
@@ -42,7 +41,6 @@ public class Maze3dSolution implements Solution<Position> {
 	/**
 	 * Instantiates a new  MazeSolution with given ArrayList of positions represent the solution of 3D maze.
 	 *@param solutionMap ArrayList<Position> represent the solution of 3D maze. 
-	 *@return new  Maze3dSolution with given ArrayList of positions represent the solution of 3D maze.
 	 */
 	public Maze3dSolution(ArrayList<State<Position>> solutionMap)
 	{
@@ -79,7 +77,6 @@ public class Maze3dSolution implements Solution<Position> {
 	 * This boolean method comparing between 2 Maze3dSolution instances.
 	 *@param obj an object to compare toString method that represent the Maze3dSolution values
 	 *@return True if the Maze3dSolution values as string are equals
-	 *@return False if the Maze3dSolution values as string are not equals
 	 */
 	public boolean equals(Object obj) {return obj.toString().equals(this.toString());}
 	@Override

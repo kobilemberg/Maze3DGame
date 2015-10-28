@@ -26,7 +26,6 @@ public class Maze3d implements Serializable{
 	 *@param floor integer that represent the number of floors to set 
 	 *@param lines integer that represent the number of lines to set
 	 *@param cols integer that represent the number of columns to set
-	 *@return Maze3d an instance, that contains the maze with the given floors, lines and columns 
 	 */
 	public Maze3d(int floors, int lines, int cols) {
 		super();
@@ -103,7 +102,6 @@ public class Maze3d implements Serializable{
 	/**
 	 * Copy constructor that Instantiates a new  maze3d with given other 3D maze
 	 *@param other Maze3d type in order to copy his values. 
-	 *@return Maze3d an instance, that contains the other maze settings 
 	 */
 	public Maze3d(Maze3d other)
 	{
@@ -153,7 +151,7 @@ public class Maze3d implements Serializable{
 	}
 	/**
 	 * This method will return the maze as a string
-	 *@return return the maze as a string
+	 *@return the maze as a string
 	 */
 //Overrides
 	@Override

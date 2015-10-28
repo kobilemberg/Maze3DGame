@@ -37,7 +37,6 @@ public class Demo implements Serializable
 	 * @param floors represent the search-able 3D maze
 	 * @param lines represent the search-able 3D maze
 	 * @param cols represent the search-able 3D maze
-	 * @return SearchableMaze3d as new instance.         
 	 */
 	public SearchableMaze3d createSearchableMaze3d (int floors,int lines, int cols)
 	{

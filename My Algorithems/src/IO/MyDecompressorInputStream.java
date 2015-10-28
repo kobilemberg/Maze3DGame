@@ -15,7 +15,6 @@ public class MyDecompressorInputStream extends InputStream {
 	/**
 	 * Instantiates a new MyDecompressorInputStream with InputStream as data member
 	 *@param in InputStream represent an InputStream to work with
-	 *@return new MyDecompressorInputStream with InputStream as data member with instance.
 	 */
 	public MyDecompressorInputStream(InputStream in) {
 		super();

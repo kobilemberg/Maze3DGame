@@ -87,7 +87,6 @@ public  class Position implements Serializable
 	 * This boolean method comparing between 2 Positions
 	 *@param obj an object to compare toString method that represent the position values
 	 *@return True if the positions values as string are equals
-	 *@return False if the positions values as string are not equals
 	 */
 	public boolean equals(Object other)
 	{

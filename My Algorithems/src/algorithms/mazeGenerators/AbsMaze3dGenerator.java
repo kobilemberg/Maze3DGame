@@ -21,7 +21,6 @@ public abstract class AbsMaze3dGenerator implements Maze3dGenerator {
 	 *@param floor integer that represent the number of floors to set 
 	 *@param lines integer that represent the number of lines to set
 	 *@param cols integer that represent the number of columns to set
-	 *@return Maze3d an instance, that contains the maze with the given floors, lines and columns          
 	 */
 	@Override
 	public abstract Maze3d generate(int floors, int lines, int cols);

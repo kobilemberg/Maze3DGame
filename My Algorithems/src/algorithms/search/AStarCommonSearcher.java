@@ -27,7 +27,6 @@ public class AStarCommonSearcher extends AbsCommonSearcher implements Comparator
 //Constructors
 	/**
 	 * Instantiates a new  A* searcher
-	 *@return new instance of A* searcher
 	 */
 	public AStarCommonSearcher() 
 	{
@@ -38,7 +37,6 @@ public class AStarCommonSearcher extends AbsCommonSearcher implements Comparator
 	/**
 	 *Instantiates a new  A* searcher with given Distance as instance to calulate the heuristics function
 	 *@param h Distance as instance to calulate the heuristics function
-	 *@return new instance of A* searcher
 	 */
 	
 	public AStarCommonSearcher(Distance h) 
@@ -50,7 +48,6 @@ public class AStarCommonSearcher extends AbsCommonSearcher implements Comparator
 	 *Instantiates a new  A* searcher with given Distance as instance to calulate the heuristics function and solution to return when the searcher finished
 	 *@param Solution solution represent the solution to return after the maze is solved
 	 *@param h Distance as instance to calulate the heuristics function
-	 *@return new instance of A* searcher
 	 */
 	public AStarCommonSearcher(Solution solution,Distance h) {
 		super();
@@ -62,7 +59,6 @@ public class AStarCommonSearcher extends AbsCommonSearcher implements Comparator
 	 *@param Solution solution represent the solution to return after the maze is solved
 	 *@param h Distance as instance to calulate the heuristics function
 	 *@param s Searchable as instance represent the searchable problam
-	 *@return new instance of A* searcher
 	 */
 	public AStarCommonSearcher(Solution solution,Distance h,Searchable s) {
 		super();

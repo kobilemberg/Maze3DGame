@@ -16,7 +16,6 @@ public class MyCompressorOutputStream extends OutputStream {
 	/**
 	 * Instantiates a new MyCompressorOutputStream with OutputStream as data member
 	 *@param out OutputStream represent an OutputStream to work with
-	 *@return new MyCompressorOutputStream with OutputStream as data member with instance.
 	 */
 	public MyCompressorOutputStream(OutputStream out) {
 		super();

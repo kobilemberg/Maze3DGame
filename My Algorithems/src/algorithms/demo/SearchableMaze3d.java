@@ -31,9 +31,7 @@ public class SearchableMaze3d implements Searchable<Position>
 //Constructors	
 	/**
 	 * Instantiates a new search-able maze3d.
-	 *
 	 * @param maze represent the search-able 3D maze
-	 * @return new instance that contains the maze          
 	 */
 	public SearchableMaze3d(Maze3d maze) {this.maze = maze;}
 

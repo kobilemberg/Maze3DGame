@@ -20,7 +20,6 @@ public class State<T> implements Comparable<State>,Serializable
 //CTORS	
 	/**
 	 * Instantiates a new State with cost = 0
-	 *@return State as instance, that contains cost as 0.
 	 */
 	public State() 
 	{
@@ -34,7 +33,6 @@ public class State<T> implements Comparable<State>,Serializable
 	 *@param cost double that represent the price of position "movement" 
 	 *@param Father State<T> that represent the Father of this State
 	 *@param cameFromAction String that represent the Came from direction, I.E "Left" meaning is that his father-State located right.  
-	 *@return State<t> as instance with given values.        
 	 */
 	public State(T state,double cost, State<T> father, String cameFromAction) {
 		this.state=state;
@@ -49,7 +47,6 @@ public class State<T> implements Comparable<State>,Serializable
 	/**
 	 * Copy constructor that Instantiates a new State<t> with given other State<t>
 	 *@param other State<t> type in order to copy his values. 
-	 *@return State<t> an instance, that contains the other State<t> settings 
 	 */
 	public State(State<T> other) {
 		this.cost = other.cost;
